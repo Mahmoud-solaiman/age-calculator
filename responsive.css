@@ -1,0 +1,39 @@
+@media (max-width:670px){
+    .container {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .app-container {
+        padding:10px;
+        border-radius:0;
+        width:100%;
+    }
+    .input-data {
+        flex-direction: column;
+    }
+    .fields-wrapper {
+        flex-direction: column;
+        gap:10px;
+        border:none;
+        padding:0;
+    }
+    .field input {
+        width:100%;
+    }
+    .arrow-wrapper {
+        padding:10px;
+        width:70px;
+        height:70px;
+        align-self:center;
+    }
+    .output-data h2 {
+        font-size:4.3rem;
+        margin-top:-20px;
+    }
+}
+
+@media (max-width:380px){
+    .output-data h2 {
+        font-size:3.7rem;
+    }
+}

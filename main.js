@@ -89,4 +89,4 @@ window.addEventListener('change', ()=>{
 
 //Controller
 const submitBtn = document.querySelector('.arrow-wrapper');
-submitBtn.addEventListener('click', errors);
+submitBtn.addEventListener('pointerup', errors);

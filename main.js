@@ -50,9 +50,9 @@ function errors(){
         const preMonthDays = new Date(d.getFullYear(), d.getMonth()-1, 0).getDate();
         if(d.getDate() < dayFieldValue){
             dayOutput.textContent = d.getDate()+preMonthDays-dayFieldValue;
-            if(d.getMonth < monthFieldValue){
-                monthOutput.textContent = (d.getMonth()+13)-monthFieldValue;
-                yearOutput.textContent = d.getFullYear()-yearFieldValue;
+            if(d.getMonth() < monthFieldValue){
+                monthOutput.textContent = (d.getMonth()+12)-monthFieldValue;
+                yearOutput.textContent = (d.getFullYear()-1)-yearFieldValue;
             } else {
                 monthOutput.textContent = d.getMonth()-monthFieldValue;
                 yearOutput.textContent = d.getFullYear()-yearFieldValue;
